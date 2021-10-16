@@ -8,9 +8,9 @@
 #41B3A3     azulado
 */
 
+/* código para caber em ecra mobile*/
 #fitin
  {
-   
     overflow: hidden;
     font-size: 1em;
 }
@@ -49,11 +49,12 @@ h1{
 
 .msg
 {
-    background-color: #41B3A3 ;
+    background-color: black ;
     border-radius: 10px;
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
     font-size: 1em;
+    font-weight: bold;
 }
 
 input 
