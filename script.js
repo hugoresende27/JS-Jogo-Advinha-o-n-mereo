@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function()
 function iniciar()
 {
     let tempMsg = "Bem vindo, advinha um número entre "+jogo.min+" e "+jogo.max;
-    mensagem(tempMsg , "blue");
+    mensagem(tempMsg , "black");
 
 }
 function mensagem(msg , clr)

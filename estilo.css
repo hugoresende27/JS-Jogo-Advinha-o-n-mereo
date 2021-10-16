@@ -8,22 +8,25 @@
 #41B3A3     azulado
 */
 
+#fitin
+ {
+   
+    overflow: hidden;
+    font-size: 1em;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
 body
 {
     background-color: #242852 ;
-    color: #F64C72;
+    color: #242852  ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20pt;
    
 }
 
 h1{
     text-shadow:  5px 5px 5px #553D67 ;
-}
-
-.container {  
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(2, 100px);  
+    
 }
 
 
@@ -49,13 +52,14 @@ h1{
     background-color: #41B3A3 ;
     border-radius: 10px;
     padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 input 
 {
     margin: 20px;
+    width: 50%;
 }
 
 
