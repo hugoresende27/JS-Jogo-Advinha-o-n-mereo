@@ -1,15 +1,55 @@
-body{
+body
+{
     background-color: black;
-    color: greenyellow;
+    color: rgb(0, 255, 64);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+h1{
+    text-shadow:  5px 5px 5px rgb(241, 15, 15);
 }
 
 
 
-.center {
+.center 
+{
     text-align: center;
     margin: auto;
     width: 30%;
-    border: 3px solid green;
+    border: 3px solid rgb(253, 237, 7);
     padding: 20px;
-  }
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#saida
+{
+    background-image: url('fundo.jpg');
+}
+
+
+
+/*estilos do footer */
+
+footer{
+    padding-top: 10px;
+    color: chartreuse;
+    clear: both;
+    text-align: center;
+    border-top: 1px dashed;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    
+}
+
+footer a{
+   color: #edf5e1;  /*cor dos links a preto*/
+   text-decoration: none;     /*retira o sublinhado dos links*/
+  
+}
+
+footer a:hover{
+    color: red;
+}
