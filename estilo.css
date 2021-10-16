@@ -1,13 +1,24 @@
+/*PALETA DE CORES
+#E27D60     vermelho laranja
+#242852     azul escuro
+#553D67     roxo
+#F64C72     rosa
+#E8A87C     amarelo 
+#C38D9E
+#41B3A3     azulado
+*/
+
 body
 {
-    background-color: black;
-    color: rgb(0, 255, 64);
+    background-color: #242852 ;
+    color: #F64C72;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
    
 }
 
 h1{
-    text-shadow:  5px 5px 5px rgb(241, 15, 15);
+    text-shadow:  5px 5px 5px #553D67 ;
 }
 
 
@@ -17,15 +28,30 @@ h1{
     text-align: center;
     margin: auto;
     width: 30%;
-    border: 3px solid rgb(253, 237, 7);
+    border: 3px solid #E8A87C;
     padding: 20px;
     margin-bottom: 100px;
     margin-top: 100px;
+    border-radius: 20px;
 }
 
 #saida
 {
     background-image: url('fundo.jpg');
+}
+
+.msg
+{
+    background-color: #41B3A3 ;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+}
+
+input 
+{
+    margin: 20px;
 }
 
 
