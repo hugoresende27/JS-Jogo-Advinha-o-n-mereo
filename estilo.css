@@ -8,13 +8,13 @@
 #41B3A3     azulado
 */
 
-/* código para caber em ecra mobile*/
+/* código para caber em ecra mobile
 .fitin
  {
     overflow: hidden;
     font-size: 2em;
 }
-
+*/
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -41,7 +41,7 @@ h1{
 {
     text-align: center;
     margin: auto;
-    width: 30%;
+    width: 80%;
     border: 3px solid #E8A87C;
     padding: 20px;
     margin-bottom: 100px;
